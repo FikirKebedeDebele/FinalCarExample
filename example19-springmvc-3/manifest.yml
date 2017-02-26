@@ -1,0 +1,6 @@
+---
+applications:
+  - name: predix_jpa_sv_fikirCar
+    buildpack: java_buildpack
+services:
+    - redis_sv 
