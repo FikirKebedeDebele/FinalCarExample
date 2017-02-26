@@ -14,6 +14,7 @@
 		<spring-framework.version>4.2.2.RELEASE</spring-framework.version>
 		<hibernate.version>4.2.21.Final</hibernate.version>
 		<jstl.version>1.2</jstl.version>
+		<spring-cloud.version>1.2.0.RELEASE</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -50,6 +51,19 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+		</dependency>
+		<!-- CloudFoundry -->
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-cloudfoundry-connector</artifactId>
+			<version>${spring-cloud.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-spring-service-connector</artifactId>
+			<version>${spring-cloud.version}</version>
 		</dependency>
 	</dependencies>
 
